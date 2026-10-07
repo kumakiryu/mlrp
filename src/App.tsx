@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import martialLawLogo from "./assets/martial-law-logo.png";
+
+const martialLawLogo = "/martial-law-logo.png";
 
 type Page = "home" | "about" | "team" | "play" | "patch-notes";
 type Status = "online" | "offline" | "maintenance";

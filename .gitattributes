@@ -144,3 +144,6 @@
 *.stl                filter=lfs diff=lfs merge=lfs -text
 *.nc                 filter=lfs diff=lfs merge=lfs -text
 *.mat                filter=lfs diff=lfs merge=lfs -text
+
+# Vercel must receive the actual branding asset rather than an LFS pointer.
+public/martial-law-logo.png -filter -diff -merge -text
