@@ -1,0 +1,14 @@
+{
+  "title": "MLRP",
+  "description": "The Website of Martial Law RP",
+  "icons": {
+    "icon": "/martial-law-logo.png"
+  },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
